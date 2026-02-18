@@ -3299,12 +3299,15 @@ pre code {
 </div>
 
 
+<div id="about" class="section level2">
+<h2>About</h2>
 <p>This knitted R Markdown file has two research samples. The first is
 an interactive visual showing a snippet of a network of frog calls from
 long-term bioacoustic data. The second sample contains a portion of data
 and analyses for a manuscript nearing submission.</p>
 <pre class="r"><code># Specify directories, can edit based on folders you have set up
 DATA_IN &lt;- &quot;in&quot;</code></pre>
+</div>
 <div id="dynamic-temporal-co-occurrence-networks-of-frog-calls" class="section level2">
 <h2>Dynamic temporal co-occurrence networks of frog calls</h2>
 <pre class="r"><code>library(networkDynamic)
@@ -3543,6 +3546,9 @@ Anova(m_larvae_mass, type = &quot;II&quot;)</code></pre>
 smean.cl.boot(larvae_growth_no_outlier$wet_mass_mg)</code></pre>
 <pre><code>##     Mean    Lower    Upper 
 ## 139.1205 134.5177 143.1259</code></pre>
+<p>Since additive effects of treatments show non-significance, then
+interactive treatment effects would be even more unlikely and difficult
+to interpret.</p>
 </div>
 
 
